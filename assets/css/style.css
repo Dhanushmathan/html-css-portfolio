@@ -73,12 +73,9 @@ header {
 
 /* Hero Section */
 
-main {
+.hero-section {
     background-color: var(--dark-primary);
     color: #fff;
-}
-
-.hero-section {
     display: flex;
     align-items: center;
     padding: 40px 80px 0 80px;
@@ -172,4 +169,59 @@ main {
 .btn.btn-primary-outline:hover {
     color: #fff;
     box-shadow: 0 0 20px var(--blue-primary);
+}
+
+/* About */
+
+.about-section {
+    background-color: #22282f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.about-section img {
+    width: 390px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid var(--blue-primary);
+    box-shadow: 0 0 30px var(--blue-primary);
+}
+
+.about-section-desc {
+    margin-left: 100px;
+    max-width: 500px;
+}
+
+.about-section-desc h4 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-section-desc h4 span {
+    color: var(--blue-primary);
+}
+
+.about-section-desc ul {
+    list-style: none;
+    margin: 10px 0 15px 0;
+}
+
+.about-section-desc ul li {
+    margin-bottom: 7px;
+    color: #a5a5a5;
+}
+
+.about-section-desc li strong {
+    color: #fff;
+}
+
+.about-section-desc li a {
+    color: #a5a5a5;
+}
+
+.about-section-desc li a:hover {
+    color: #0066ff;
 }
