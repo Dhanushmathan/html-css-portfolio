@@ -15,6 +15,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Navbar */
+
 header {
     background-color: var(--dark-primary);
     padding: 20px;
@@ -46,6 +48,7 @@ header {
 
 .navbar-link li a {
     color: #fff;
+    font-weight: 600;
 }
 
 .navbar-link li a:hover {
@@ -64,6 +67,109 @@ header {
 
 .navbar button:hover {
     cursor: pointer;
+    color: #fff;
+    box-shadow: 0 0 20px var(--blue-primary);
+}
+
+/* Hero Section */
+
+main {
+    background-color: var(--dark-primary);
+    color: #fff;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    padding: 40px 80px 0 80px;
+}
+
+.hero-section-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.hero-section-title span {
+    color: #2f7df0;
+}
+
+.hero-section-desc {
+    color: #a5a5a5;
+    padding-bottom: 10px;
+}
+
+.hero-social-icon {
+    margin-bottom: 10px;
+}
+
+.hero-social-icon a {
+    padding-right: 10px;
+}
+
+.hero-social-icon .facebook {
+    fill: #fff;
+}
+
+.hero-social-icon .linkedin {
+    fill: #fff;
+}
+
+.hero-social-icon .twitter {
+    fill: #fff;
+}
+
+.hero-social-icon .instagram {
+    fill: #fff;
+}
+
+.hero-social-icon .facebook:hover {
+    fill: #1877f2;
+}
+
+.hero-social-icon .linkedin:hover {
+    fill: #0a66c2;
+}
+
+.hero-social-icon .twitter:hover {
+    fill: #1da1f2;
+}
+
+.hero-social-icon .instagram:hover {
+    fill: #fcb65b;
+}
+
+.hero-btn button {
+    margin-right: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn.btn-primary {
+    background-color: var(--blue-primary);
+    color: var(--dark-primary);
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.btn.btn-primary:hover {
+    color: #fff;
+}
+
+.btn.btn-primary-outline {
+    border: 1px solid var(--blue-primary);
+    background: var(--dark-primary);
+    color: var(--blue-primary);
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.btn.btn-primary-outline:hover {
     color: #fff;
     box-shadow: 0 0 20px var(--blue-primary);
 }
