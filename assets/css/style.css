@@ -301,3 +301,45 @@ header {
 .work-section-icon:hover {
     background-color: #0054d3;
 }
+
+/* Contact Me */
+
+.contact-section {
+    background-color: #22282f;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+}
+
+.contact-section h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.contact-section h3 span {
+    color: var(--blue-primary);
+}
+
+.contact-section form input,
+textarea {
+    padding: 10px;
+    outline: none;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c4c4c4;
+    margin-bottom: 10px;
+    resize: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--dark-primary);
+    color: #626569;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
