@@ -351,3 +351,60 @@ footer {
 footer a:hover {
     color: #0d6efd;
 }
+
+/* Media Query */
+@media screen and (max-width: 600px) {
+
+    /* navbar */
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar>* {
+        margin-bottom: 10px;
+    }
+
+    /* hero-section */
+    .hero-section {
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .hero-section img {
+        margin-top: 20px;
+        width: 450px;
+    }
+
+    /* About Section */
+    .about-section {
+        flex-direction: column;
+    }
+
+    .about-section-desc {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    /* My works */
+    .work-section {
+        padding: 30px 10px;
+    }
+
+    .work-section-items {
+        flex-direction: column;
+    }
+
+    .work-section-box {
+        max-width: 80%;
+        margin-left: 0;
+    }
+
+    /* contact */
+    .contact-section{
+        padding: 20px 45px;
+    }
+    .contact-section form input,
+    textarea {
+        width: 100%;
+    }
+}
