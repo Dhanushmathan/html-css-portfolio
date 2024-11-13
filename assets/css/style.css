@@ -378,6 +378,7 @@ footer a:hover {
     /* About Section */
     .about-section {
         flex-direction: column;
+        padding: 30px;
     }
 
     .about-section-desc {
@@ -400,9 +401,10 @@ footer a:hover {
     }
 
     /* contact */
-    .contact-section{
+    .contact-section {
         padding: 20px 45px;
     }
+
     .contact-section form input,
     textarea {
         width: 100%;
